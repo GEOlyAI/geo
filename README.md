@@ -35,21 +35,3 @@ A curated and continuously evolving suite of OpenClaw skills for GEO optimizatio
 *New skills and feature updates added regularly — check back for the latest GEO optimization tools!*
 
 ---
-
-## 📦 Installation & Usage
-Install any current or future skill in this repository directly via OpenClaw CLI — follow the standard syntax for all skills:
-```bash
-# Universal installation syntax (replace [skill-folder-name] with the actual skill directory)
-claw install https://github.com/GEOlyAI/geo/tree/main/[skill-folder-name]
-
-# Example: Install the geo-site-audit skill
-claw install https://github.com/GEOlyAI/geo/tree/main/geo-site-audit
-
-# Verify all installed GEO skills
-claw list
-
-# Run built-in skill evaluation to test functionality
-claw eval [skill-name]
-
-# Update an installed skill to the latest version
-claw update [skill-name]
